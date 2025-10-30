@@ -26,7 +26,9 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.AllowAnyOrigin();
+        policy.WithOrigins("https://play-hunt-backend.netlify.app")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
     });
 });
 
@@ -38,14 +40,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseDefaultFiles();
-app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 app.UseCors();
 app.UseAuthorization();
 app.MapControllers();
 
-app.MapFallbackToFile("index.html");
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://0.0.0.0:{port}");
 
 app.Run();
