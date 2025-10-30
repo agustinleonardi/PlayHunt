@@ -32,3 +32,4 @@
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
+/Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json

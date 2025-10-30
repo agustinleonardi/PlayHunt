@@ -28,3 +28,4 @@
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Application/obj/Debug/net8.0/refint/Application.dll
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Application/obj/Debug/net8.0/Application.pdb
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Application/obj/Debug/net8.0/ref/Application.dll
+/Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Application/obj/Debug/net8.0/Application.sourcelink.json

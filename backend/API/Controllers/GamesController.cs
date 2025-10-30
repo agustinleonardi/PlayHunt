@@ -19,9 +19,6 @@ public class GamesController : ControllerBase
     {
         var games = await _gamesService.GetGamesAsync(genre, platform, sort);
 
-        Console.WriteLine($"Games count: {games?.Count ?? 0}");
-
-
         return Ok(games);
     }
 

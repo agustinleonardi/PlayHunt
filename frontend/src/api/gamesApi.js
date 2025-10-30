@@ -1,6 +1,4 @@
-import API_BASE_URL from '../config/api';
-
-const API_URL = `${API_BASE_URL}/games`;
+const API_URL = 'http://localhost:5011/api/games';
 
 export async function getAllGames(genre, platform, sort) {
     const params = new URLSearchParams();

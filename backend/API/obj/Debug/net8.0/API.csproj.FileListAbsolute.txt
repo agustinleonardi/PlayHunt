@@ -87,3 +87,4 @@
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/API/obj/Debug/net8.0/API.pdb
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/API/obj/Debug/net8.0/API.genruntimeconfig.cache
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/API/obj/Debug/net8.0/ref/API.dll
+/Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/API/obj/Debug/net8.0/API.sourcelink.json

@@ -20,3 +20,4 @@
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Domain/obj/Debug/net8.0/refint/Domain.dll
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Domain/obj/Debug/net8.0/Domain.pdb
 /Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Domain/obj/Debug/net8.0/ref/Domain.dll
+/Users/agustinleonardi/Desktop/Proyectos_Agu/F2KProject/backend/Domain/obj/Debug/net8.0/Domain.sourcelink.json
