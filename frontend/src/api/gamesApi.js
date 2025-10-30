@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5011/api/games';
+const API_URL = `${import.meta.env.VITE_API_URL}/games`;
 
 export async function getAllGames(genre, platform, sort) {
     const params = new URLSearchParams();
