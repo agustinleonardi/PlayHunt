@@ -26,7 +26,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("https://play-hunt-backend.netlify.app")
+        policy.WithOrigins("https://play-hunt-front.netlify.app")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
