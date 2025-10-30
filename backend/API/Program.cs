@@ -47,7 +47,7 @@ app.UseCors();
 app.UseAuthorization();
 app.MapControllers();
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5011";
 app.Urls.Add($"http://0.0.0.0:{port}");
 
 app.Run();

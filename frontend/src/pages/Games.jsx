@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { getAllGames } from '../api/gamesApi';
 import './Games.css';
 
 function Games() {
@@ -8,8 +9,7 @@ function Games() {
 
   async function loadGames() {
     try {
-      const response = await fetch('http://localhost:5011/api/games');
-      const data = await response.json();
+      const data = await getAllGames();
       setGames(data);
       setFilteredGames(data);
       console.log('Juegos cargados:', data.length);
